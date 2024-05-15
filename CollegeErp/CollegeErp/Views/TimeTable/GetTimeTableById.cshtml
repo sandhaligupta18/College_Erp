@@ -1,0 +1,57 @@
+﻿@model ModelAccessLayer.TimeTable
+
+<div>
+  
+
+    <section id="main-content">
+        <section class="wrapper">
+            <h2 class="text-black">TimeTable Details</h2>
+            <div class="table-agile-info d-flex justify-content-center">
+                <dl class="dl-horizontal">
+                    <dt>
+                        @Html.DisplayNameFor(model => model.TeacherId)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.TeacherId)
+                    </dd>
+                    <dt>
+                        @Html.DisplayNameFor(model => model.SubjectId)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.SubjectId)
+                    </dd>
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Branch)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.Branch)
+                    </dd>
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Days)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.Days)
+                    </dd>
+                    <dt>
+                        @Html.DisplayNameFor(model => model.StartLecture)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.StartLecture)
+                    </dd>
+                    <dt>
+                        @Html.DisplayNameFor(model => model.EndLecture)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.EndLecture)
+                    </dd>
+                   
+
+                </dl>
+            </div>
+        </section>
+
+    </section>
+</div>
+
+
+

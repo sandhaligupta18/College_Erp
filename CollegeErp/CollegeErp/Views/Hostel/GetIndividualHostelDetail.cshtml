@@ -1,0 +1,90 @@
+﻿@model IEnumerable<ModelAccessLayer.Hostel>
+
+
+
+<section id="main-content">
+    <section class="wrapper">
+        <div class="table-agile-info">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    Hostel  Details
+                </div>
+
+                <div class="table-responsive">                   
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.StudentName)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.EnrollNo)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.HostelName)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.RoomNo)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.AllocationDate)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.IsActive)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.TotalFee)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.SubmittedFee)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.PendingFee)
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.StudentName)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.EnrollNo)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.HostelName)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.RoomNo)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.AllocationDate)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.IsActive)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.TotalFee)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.SubmittedFee)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.PendingFee)
+                                    </td>
+
+                                
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+
+</section>
+

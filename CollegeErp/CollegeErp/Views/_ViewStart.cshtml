@@ -1,0 +1,28 @@
+﻿@* @{
+    Layout = "_Layout";
+} *@
+@using Microsoft.AspNetCore.Identity
+@using ModelAccessLayer
+@inject SignInManager<RegisterUser> SignInManager
+@inject UserManager<RegisterUser> UserManager
+@{
+    if (this.User.IsInRole("Admin") || !this.User.Identity.IsAuthenticated)
+    {
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+    else if (this.User.IsInRole("Teacher") || !this.User.Identity.IsAuthenticated)
+    {
+        Layout = "~/Views/Shared/_LayoutTeacher.cshtml";
+    }
+    else if (this.User.IsInRole("Student") || !this.User.Identity.IsAuthenticated)
+    {
+        Layout = "~/Views/Shared/_LayoutStudent.cshtml";
+    }
+    else
+    {
+        Layout = "/Account/Loginusers";
+    }
+
+}
+
+

@@ -1,0 +1,74 @@
+﻿@model IEnumerable<ModelAccessLayer.LibraryDetails>
+
+
+
+
+<section id="main-content">
+    <section class="wrapper">
+        <div class="table-agile-info">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    Library Details
+                </div>
+
+                <div class="table-responsive">
+                   
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.IssuedBy)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.EnrollNo)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.BookId)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.BookName)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.IssuedOn)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.ReturnDate)
+                                </th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.IssuedBy)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.EnrollNo)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.BookId)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.BookName)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.IssuedOn)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.ReturnDate)
+                                    </td>                                  
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+</section>
+
+

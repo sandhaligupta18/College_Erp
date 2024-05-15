@@ -1,0 +1,312 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DotNetProjects\\CollegeErp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CFD4E02C-F484-48A0-9536-4E40AD6861F8}|BussinessAccessLayer\\BussinessAccessLayer.csproj|d:\\dotnetprojects\\collegeerp\\bussinessaccesslayer\\implementation\\assignmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFD4E02C-F484-48A0-9536-4E40AD6861F8}|BussinessAccessLayer\\BussinessAccessLayer.csproj|solutionrelative:bussinessaccesslayer\\implementation\\assignmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFD4E02C-F484-48A0-9536-4E40AD6861F8}|BussinessAccessLayer\\BussinessAccessLayer.csproj|d:\\dotnetprojects\\collegeerp\\bussinessaccesslayer\\implementation\\hostelservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFD4E02C-F484-48A0-9536-4E40AD6861F8}|BussinessAccessLayer\\BussinessAccessLayer.csproj|solutionrelative:bussinessaccesslayer\\implementation\\hostelservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9663A2E9-F7DB-481C-A0CE-FE05A3E58734}|CollegeErp\\CollegeErp.csproj|d:\\dotnetprojects\\collegeerp\\collegeerp\\controllers\\assignmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9663A2E9-F7DB-481C-A0CE-FE05A3E58734}|CollegeErp\\CollegeErp.csproj|solutionrelative:collegeerp\\controllers\\assignmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFD4E02C-F484-48A0-9536-4E40AD6861F8}|BussinessAccessLayer\\BussinessAccessLayer.csproj|d:\\dotnetprojects\\collegeerp\\bussinessaccesslayer\\abstract\\iassignmentservicescs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFD4E02C-F484-48A0-9536-4E40AD6861F8}|BussinessAccessLayer\\BussinessAccessLayer.csproj|solutionrelative:bussinessaccesslayer\\abstract\\iassignmentservicescs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657C06D8-8DB5-4E14-ADE0-B9774337B5BB}|ModelAccessLayer\\ModelAccessLayer.csproj|d:\\dotnetprojects\\collegeerp\\modelaccesslayer\\assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{657C06D8-8DB5-4E14-ADE0-B9774337B5BB}|ModelAccessLayer\\ModelAccessLayer.csproj|solutionrelative:modelaccesslayer\\assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9663A2E9-F7DB-481C-A0CE-FE05A3E58734}|CollegeErp\\CollegeErp.csproj|d:\\dotnetprojects\\collegeerp\\collegeerp\\views\\assignment\\updateassignment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9663A2E9-F7DB-481C-A0CE-FE05A3E58734}|CollegeErp\\CollegeErp.csproj|solutionrelative:collegeerp\\views\\assignment\\updateassignment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9663A2E9-F7DB-481C-A0CE-FE05A3E58734}|CollegeErp\\CollegeErp.csproj|d:\\dotnetprojects\\collegeerp\\collegeerp\\views\\shared\\_layoutteacher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9663A2E9-F7DB-481C-A0CE-FE05A3E58734}|CollegeErp\\CollegeErp.csproj|solutionrelative:collegeerp\\views\\shared\\_layoutteacher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9663A2E9-F7DB-481C-A0CE-FE05A3E58734}|CollegeErp\\CollegeErp.csproj|d:\\dotnetprojects\\collegeerp\\collegeerp\\views\\assignment\\getallassignment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9663A2E9-F7DB-481C-A0CE-FE05A3E58734}|CollegeErp\\CollegeErp.csproj|solutionrelative:collegeerp\\views\\assignment\\getallassignment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657C06D8-8DB5-4E14-ADE0-B9774337B5BB}|ModelAccessLayer\\ModelAccessLayer.csproj|d:\\dotnetprojects\\collegeerp\\modelaccesslayer\\assignmentviews.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{657C06D8-8DB5-4E14-ADE0-B9774337B5BB}|ModelAccessLayer\\ModelAccessLayer.csproj|solutionrelative:modelaccesslayer\\assignmentviews.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14466B6E-ECB6-455E-9FC3-2768C70F3239}|DataAccessLayer\\DataAccessLayer.csproj|d:\\dotnetprojects\\collegeerp\\dataaccesslayer\\applicationdb_context\\appdb_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14466B6E-ECB6-455E-9FC3-2768C70F3239}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\applicationdb_context\\appdb_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9663A2E9-F7DB-481C-A0CE-FE05A3E58734}|CollegeErp\\CollegeErp.csproj|d:\\dotnetprojects\\collegeerp\\collegeerp\\controllers\\feecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9663A2E9-F7DB-481C-A0CE-FE05A3E58734}|CollegeErp\\CollegeErp.csproj|solutionrelative:collegeerp\\controllers\\feecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14466B6E-ECB6-455E-9FC3-2768C70F3239}|DataAccessLayer\\DataAccessLayer.csproj|d:\\dotnetprojects\\collegeerp\\dataaccesslayer\\migrations\\20240510210351_addmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14466B6E-ECB6-455E-9FC3-2768C70F3239}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\migrations\\20240510210351_addmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9663A2E9-F7DB-481C-A0CE-FE05A3E58734}|CollegeErp\\CollegeErp.csproj|d:\\dotnetprojects\\collegeerp\\collegeerp\\views\\assignment\\addassignment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9663A2E9-F7DB-481C-A0CE-FE05A3E58734}|CollegeErp\\CollegeErp.csproj|solutionrelative:collegeerp\\views\\assignment\\addassignment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFD4E02C-F484-48A0-9536-4E40AD6861F8}|BussinessAccessLayer\\BussinessAccessLayer.csproj|d:\\dotnetprojects\\collegeerp\\bussinessaccesslayer\\implementation\\accountservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFD4E02C-F484-48A0-9536-4E40AD6861F8}|BussinessAccessLayer\\BussinessAccessLayer.csproj|solutionrelative:bussinessaccesslayer\\implementation\\accountservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9663A2E9-F7DB-481C-A0CE-FE05A3E58734}|CollegeErp\\CollegeErp.csproj|d:\\dotnetprojects\\collegeerp\\collegeerp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9663A2E9-F7DB-481C-A0CE-FE05A3E58734}|CollegeErp\\CollegeErp.csproj|solutionrelative:collegeerp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9663A2E9-F7DB-481C-A0CE-FE05A3E58734}|CollegeErp\\CollegeErp.csproj|d:\\dotnetprojects\\collegeerp\\collegeerp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9663A2E9-F7DB-481C-A0CE-FE05A3E58734}|CollegeErp\\CollegeErp.csproj|solutionrelative:collegeerp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9663A2E9-F7DB-481C-A0CE-FE05A3E58734}|CollegeErp\\CollegeErp.csproj|d:\\dotnetprojects\\collegeerp\\collegeerp\\views\\shared\\_layoutstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9663A2E9-F7DB-481C-A0CE-FE05A3E58734}|CollegeErp\\CollegeErp.csproj|solutionrelative:collegeerp\\views\\shared\\_layoutstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14466B6E-ECB6-455E-9FC3-2768C70F3239}|DataAccessLayer\\DataAccessLayer.csproj|d:\\dotnetprojects\\collegeerp\\dataaccesslayer\\migrations\\20240515055314_assignmentmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14466B6E-ECB6-455E-9FC3-2768C70F3239}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\migrations\\20240515055314_assignmentmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HostelServices.cs",
+              "DocumentMoniker": "D:\\DotNetProjects\\CollegeErp\\BussinessAccessLayer\\Implementation\\HostelServices.cs",
+              "RelativeDocumentMoniker": "BussinessAccessLayer\\Implementation\\HostelServices.cs",
+              "ToolTip": "D:\\DotNetProjects\\CollegeErp\\BussinessAccessLayer\\Implementation\\HostelServices.cs",
+              "RelativeToolTip": "BussinessAccessLayer\\Implementation\\HostelServices.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAUwFAAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T07:02:46.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AssignmentServices.cs",
+              "DocumentMoniker": "D:\\DotNetProjects\\CollegeErp\\BussinessAccessLayer\\Implementation\\AssignmentServices.cs",
+              "RelativeDocumentMoniker": "BussinessAccessLayer\\Implementation\\AssignmentServices.cs",
+              "ToolTip": "D:\\DotNetProjects\\CollegeErp\\BussinessAccessLayer\\Implementation\\AssignmentServices.cs",
+              "RelativeToolTip": "BussinessAccessLayer\\Implementation\\AssignmentServices.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAAABkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T20:07:36.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_LayoutTeacher.cshtml",
+              "DocumentMoniker": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\Views\\Shared\\_LayoutTeacher.cshtml",
+              "RelativeDocumentMoniker": "CollegeErp\\Views\\Shared\\_LayoutTeacher.cshtml",
+              "ToolTip": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\Views\\Shared\\_LayoutTeacher.cshtml",
+              "RelativeToolTip": "CollegeErp\\Views\\Shared\\_LayoutTeacher.cshtml",
+              "ViewState": "AQIAABABAAAAAAAAAAAowCABAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-13T20:27:00.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AssignmentController.cs",
+              "DocumentMoniker": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\Controllers\\AssignmentController.cs",
+              "RelativeDocumentMoniker": "CollegeErp\\Controllers\\AssignmentController.cs",
+              "ToolTip": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\Controllers\\AssignmentController.cs",
+              "RelativeToolTip": "CollegeErp\\Controllers\\AssignmentController.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAADwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T20:09:15.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UpdateAssignment.cshtml",
+              "DocumentMoniker": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\Views\\Assignment\\UpdateAssignment.cshtml",
+              "RelativeDocumentMoniker": "CollegeErp\\Views\\Assignment\\UpdateAssignment.cshtml",
+              "ToolTip": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\Views\\Assignment\\UpdateAssignment.cshtml",
+              "RelativeToolTip": "CollegeErp\\Views\\Assignment\\UpdateAssignment.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF4AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-13T20:18:46.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Assignment.cs",
+              "DocumentMoniker": "D:\\DotNetProjects\\CollegeErp\\ModelAccessLayer\\Assignment.cs",
+              "RelativeDocumentMoniker": "ModelAccessLayer\\Assignment.cs",
+              "ToolTip": "D:\\DotNetProjects\\CollegeErp\\ModelAccessLayer\\Assignment.cs",
+              "RelativeToolTip": "ModelAccessLayer\\Assignment.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T05:55:43.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IAssignmentServicescs.cs",
+              "DocumentMoniker": "D:\\DotNetProjects\\CollegeErp\\BussinessAccessLayer\\Abstract\\IAssignmentServicescs.cs",
+              "RelativeDocumentMoniker": "BussinessAccessLayer\\Abstract\\IAssignmentServicescs.cs",
+              "ToolTip": "D:\\DotNetProjects\\CollegeErp\\BussinessAccessLayer\\Abstract\\IAssignmentServicescs.cs",
+              "RelativeToolTip": "BussinessAccessLayer\\Abstract\\IAssignmentServicescs.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T20:07:08.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppDB_Context.cs",
+              "DocumentMoniker": "D:\\DotNetProjects\\CollegeErp\\DataAccessLayer\\ApplicationDB_Context\\AppDB_Context.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\ApplicationDB_Context\\AppDB_Context.cs",
+              "ToolTip": "D:\\DotNetProjects\\CollegeErp\\DataAccessLayer\\ApplicationDB_Context\\AppDB_Context.cs",
+              "RelativeToolTip": "DataAccessLayer\\ApplicationDB_Context\\AppDB_Context.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAwBoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T19:09:47.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetAllAssignment.cshtml",
+              "DocumentMoniker": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\Views\\Assignment\\GetAllAssignment.cshtml",
+              "RelativeDocumentMoniker": "CollegeErp\\Views\\Assignment\\GetAllAssignment.cshtml",
+              "ToolTip": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\Views\\Assignment\\GetAllAssignment.cshtml",
+              "RelativeToolTip": "CollegeErp\\Views\\Assignment\\GetAllAssignment.cshtml",
+              "ViewState": "AQIAAD4AAAAAAAAAAAASwEwAAAB6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-13T20:10:32.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AssignmentViews.cs",
+              "DocumentMoniker": "D:\\DotNetProjects\\CollegeErp\\ModelAccessLayer\\AssignmentViews.cs",
+              "RelativeDocumentMoniker": "ModelAccessLayer\\AssignmentViews.cs",
+              "ToolTip": "D:\\DotNetProjects\\CollegeErp\\ModelAccessLayer\\AssignmentViews.cs",
+              "RelativeToolTip": "ModelAccessLayer\\AssignmentViews.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAADwvw0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T20:26:09.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FeeController.cs",
+              "DocumentMoniker": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\Controllers\\FeeController.cs",
+              "RelativeDocumentMoniker": "CollegeErp\\Controllers\\FeeController.cs",
+              "ToolTip": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\Controllers\\FeeController.cs",
+              "RelativeToolTip": "CollegeErp\\Controllers\\FeeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T05:18:33.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20240515055314_assignmentmigration.cs",
+              "DocumentMoniker": "D:\\DotNetProjects\\CollegeErp\\DataAccessLayer\\Migrations\\20240515055314_assignmentmigration.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Migrations\\20240515055314_assignmentmigration.cs",
+              "ToolTip": "D:\\DotNetProjects\\CollegeErp\\DataAccessLayer\\Migrations\\20240515055314_assignmentmigration.cs",
+              "RelativeToolTip": "DataAccessLayer\\Migrations\\20240515055314_assignmentmigration.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAUwBIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T05:53:14.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20240510210351_addmodel.cs",
+              "DocumentMoniker": "D:\\DotNetProjects\\CollegeErp\\DataAccessLayer\\Migrations\\20240510210351_addmodel.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Migrations\\20240510210351_addmodel.cs",
+              "ToolTip": "D:\\DotNetProjects\\CollegeErp\\DataAccessLayer\\Migrations\\20240510210351_addmodel.cs",
+              "RelativeToolTip": "DataAccessLayer\\Migrations\\20240510210351_addmodel.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAUwAwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T05:48:26.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddAssignment.cshtml",
+              "DocumentMoniker": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\Views\\Assignment\\AddAssignment.cshtml",
+              "RelativeDocumentMoniker": "CollegeErp\\Views\\Assignment\\AddAssignment.cshtml",
+              "ToolTip": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\Views\\Assignment\\AddAssignment.cshtml",
+              "RelativeToolTip": "CollegeErp\\Views\\Assignment\\AddAssignment.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-13T20:30:00.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AccountServices.cs",
+              "DocumentMoniker": "D:\\DotNetProjects\\CollegeErp\\BussinessAccessLayer\\Implementation\\AccountServices.cs",
+              "RelativeDocumentMoniker": "BussinessAccessLayer\\Implementation\\AccountServices.cs",
+              "ToolTip": "D:\\DotNetProjects\\CollegeErp\\BussinessAccessLayer\\Implementation\\AccountServices.cs",
+              "RelativeToolTip": "BussinessAccessLayer\\Implementation\\AccountServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T05:13:10.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "CollegeErp\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "CollegeErp\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T20:33:43.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CollegeErp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CollegeErp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-13T20:26:57.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_LayoutStudent.cshtml",
+              "DocumentMoniker": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\Views\\Shared\\_LayoutStudent.cshtml",
+              "RelativeDocumentMoniker": "CollegeErp\\Views\\Shared\\_LayoutStudent.cshtml",
+              "ToolTip": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\Views\\Shared\\_LayoutStudent.cshtml",
+              "RelativeToolTip": "CollegeErp\\Views\\Shared\\_LayoutStudent.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-13T20:26:59.176Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

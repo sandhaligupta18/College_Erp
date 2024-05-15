@@ -1,0 +1,93 @@
+﻿@model ModelAccessLayer.AssignmentViews
+<section id="main-content">
+    <section class=" wrapper">
+        <div class="agile-grid">
+            <div class="row">
+                <h2 class="text-black">Add Assignment Details</h2>
+                <form enctype="multipart/form-data" asp-action="AddAssignment" class="mt-4">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="col-lg-6">
+                        <section class="panel-body">
+
+                            <div class="form-group">
+                                <label asp-for="SubjectId" class="control-label"></label>
+                                <input asp-for="SubjectId" class="form-control" id="name" onkeypress=" return IsName(e)" />
+                                <span asp-validation-for="SubjectId" class="text-danger"></span>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-lg-6">
+                        <section class="panel-body">
+                            <div class="form-group">
+                                <label asp-for="Branch" class="control-label"></label>
+                                <input asp-for="Branch" class="form-control" />
+                                <span asp-validation-for="Branch" class="text-danger"></span>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-lg-6">
+                        <section class="panel-body">
+                            <div class="form-group">
+                                <label asp-for="Course" class="control-label"></label>
+                                <input asp-for="Course" class="form-control" />
+                                <span asp-validation-for="Course" class="text-danger"></span>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-lg-6">
+                        <section class="panel-body">
+                            <div class="form-group">
+                                <label asp-for="CompletionDate" class="control-label"></label>
+                                <input asp-for="CompletionDate" class="form-control" />
+                                <span asp-validation-for="CompletionDate" class="text-danger"></span>
+                            </div>
+                        </section>
+                    </div>
+                  
+                  
+                    <div class="col-lg-6">
+                        <section class="panel-body">
+                            <div class="form-group">
+                                <label asp-for="File" class="control-label"></label>
+                                <input asp-for="File" class="form-control" class="custom-file-input" />
+                                <label class="custom-file-label" for="customFile">Choose file</label>
+                                <span asp-validation-for="File" class="text-danger"></span>
+                            </div>
+                        </section>
+                    </div>
+                  
+                    <div class="col-lg-12 mt-3 ">
+                        <section class="panel-body ">
+                            <div class="form-group  ">
+                                <input type="submit" value="Add Student" class="btn btn-dark w-100 " />
+                            </div>
+                        </section>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</section>
+<script src="~/js/custom.js"></script>
+<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+
+<script type="text/javascript">
+    // Add the following code if you want the name of the file appear on select
+    $(".custom-file-input").on("change", function () {
+        var fileName = $(this).val().split("\\").pop();
+        $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+    });
+</script>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+
+
+}
+

@@ -1,0 +1,150 @@
+﻿@model ModelAccessLayer.Hostel
+
+<section id="main-content">
+    <section class=" wrapper">
+        <div class="agile-grid">
+
+
+            <div class="row">
+
+                <h2 class="text-black">Update Hostel Details</h2>
+                <form asp-action="UpdateHostelDetails" class="mt-4">
+
+
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <div class="col-lg-6">
+                        <section class="panel-body">
+
+                            <div class="form-group">
+                                <label asp-for="StudentName" class="control-label"></label>
+                                <input asp-for="StudentName" class="form-control" />
+                                <span asp-validation-for="StudentName" class="text-danger"></span>
+                            </div>
+
+                        </section>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <section class="panel-body">
+
+                            <div class="form-group">
+                                <label asp-for="EnrollNo" class="control-label"></label>
+                                <input asp-for="EnrollNo" class="form-control" />
+                                <span asp-validation-for="EnrollNo" class="text-danger"></span>
+                            </div>
+
+                        </section>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <section class="panel-body">
+
+                            <div class="form-group">
+                                <label asp-for="HostelName" class="control-label"></label>
+                                <input asp-for="HostelName" class="form-control" />
+                                <span asp-validation-for="HostelName" class="text-danger"></span>
+                            </div>
+
+
+                        </section>
+                    </div>
+                    <div class="col-lg-6">
+                        <section class="panel-body">
+
+                            <div class="form-group">
+                                <label asp-for="RoomNo" class="control-label"></label>
+                                <input asp-for="RoomNo" class="form-control" />
+                                <span asp-validation-for="RoomNo" class="text-danger"></span>
+                            </div>
+
+                        </section>
+                    </div>
+                    <div class="col-lg-6">
+                        <section class="panel-body">
+
+                            <div class="form-group">
+                                <label asp-for="AllocationDate" class="control-label"></label>
+                                <input asp-for="AllocationDate" class="form-control" />
+                                <span asp-validation-for="AllocationDate" class="text-danger"></span>
+                            </div>
+
+                        </section>
+                    </div>
+                    <div class="col-lg-6">
+                        <section class="panel-body">
+
+                            <div class="form-group">
+                                <label asp-for="IsActive" class="control-label"></label>
+                                <input asp-for="IsActive" class="form-control" />
+                                <span asp-validation-for="IsActive" class="text-danger"></span>
+                            </div>
+
+                        </section>
+                    </div>
+                    <div class="col-lg-6">
+                        <section class="panel-body">
+                            <div class="form-group">
+                                <label asp-for="TotalFee" class="control-label"></label>
+                                <input asp-for="TotalFee" class="form-control" />
+                                <span asp-validation-for="TotalFee" class="text-danger"></span>
+                            </div>
+
+                        </section>
+                    </div>
+                    <div class="col-lg-6">
+                        <section class="panel-body">
+                            <div class="form-group">
+                                <label asp-for="SubmittedFee" class="control-label"></label>
+                                <input asp-for="SubmittedFee" class="form-control" />
+                                <span asp-validation-for="SubmittedFee" class="text-danger"></span>
+                            </div>
+
+                        </section>
+                    </div>
+                    <div class="col-lg-6">
+                        <section class="panel-body">
+
+                            <div class="form-group">
+                                <label asp-for="PendingFee" class="control-label"></label>
+                                <input asp-for="PendingFee" class="form-control" />
+                                <span asp-validation-for="PendingFee" class="text-danger"></span>
+                            </div>
+
+                        </section>
+                    </div>
+                  
+                    <div class="col-lg-6 mt-3 ">
+                        <section class="panel-body ">
+
+                            <div class="form-group  ">
+                                <input type="submit" value="Update Details" class="btn btn-dark w-100 " />
+                            </div>
+
+                        </section>
+                    </div>
+
+                    <div class="col-lg-12 mt-2 ">
+                        <section class="panel-body  ">
+
+                            <div class="form-group  ">
+                                <button class=" btn btn-light border-secondary border border-2 rounded-1 p-2 w-100 "><a class=" text-secondary  " asp-action="GetAllHostelDetails">Back To List</a></button>
+                            </div>
+
+                        </section>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+</section>
+
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

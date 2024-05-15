@@ -1,0 +1,17 @@
+D:\DotNetProjects\CollegeErp\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.deps.json
+D:\DotNetProjects\CollegeErp\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.runtimeconfig.json
+D:\DotNetProjects\CollegeErp\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+D:\DotNetProjects\CollegeErp\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+D:\DotNetProjects\CollegeErp\DataAccessLayer\bin\Debug\net8.0\ModelAccessLayer.dll
+D:\DotNetProjects\CollegeErp\DataAccessLayer\bin\Debug\net8.0\ModelAccessLayer.pdb
+D:\DotNetProjects\CollegeErp\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
+D:\DotNetProjects\CollegeErp\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\DotNetProjects\CollegeErp\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
+D:\DotNetProjects\CollegeErp\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
+D:\DotNetProjects\CollegeErp\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\DotNetProjects\CollegeErp\DataAccessLayer\obj\Debug\net8.0\DataAcce.E67BD773.Up2Date
+D:\DotNetProjects\CollegeErp\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.dll
+D:\DotNetProjects\CollegeErp\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
+D:\DotNetProjects\CollegeErp\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
+D:\DotNetProjects\CollegeErp\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.genruntimeconfig.cache
+D:\DotNetProjects\CollegeErp\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll

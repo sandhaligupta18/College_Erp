@@ -1,0 +1,109 @@
+﻿@model IEnumerable<ModelAccessLayer.Assignment>
+
+
+
+<section id="main-content">
+    <section class="wrapper">
+        <div class="table-agile-info">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    Assignment Details
+                </div>
+
+                <div class="table-responsive">
+                    <p class="p-3">
+                        <button class=" btn btn-light border-secondary border border-2 rounded-1 p-2 "><a class=" text-secondary  " asp-action="AddAssignment">Add New Assignment</a></button>
+
+                    </p>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.SubjectId)
+                                </th>
+
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Course)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Branch)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.CompletionDate)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.FilePath)
+                                </th>
+                              
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+
+                                  
+                                    <td>
+
+                                        @Html.DisplayFor(modelItem => item.SubjectId)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Course)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Branch)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.CompletionDate)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.FilePath)
+                                        @* <a href="/images/@item.FilePath" asp-append-version="true" /> *@
+                                        @*  <img src="~/images/@item.ProfilePicture"
+                                    class="rounded-circle"
+                                    height="40" width="40"
+                                    asp-append-version="true" /> *@
+                                    </td>
+                                   
+                                    <td class="d-flex flex-row justify-content-around">
+                                        <button class="btn btn-light border-secondary border border-2 rounded-1 ">
+                                            @Html.ActionLink("Update", "UpdateAssignment", new { /* id = item.AssignmentId */ })
+                                        </button>
+                                        <button class="btn btn-light border-secondary border border-2 rounded-1 ms-1">
+                                            @Html.ActionLink("Details", "GetAssignment", new { /* id = item.AssignmentId */ })
+                                        </button>
+
+                                        <button class="btn btn-light border-secondary border border-2 rounded-1 ms-1">
+                                            @Html.ActionLink("Remove", " DeleteAssignment", new { /* id = item.SubjectId*/ } )
+                                        </button>
+
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+                <footer class="panel-footer">
+                    <div class="row">
+
+                        <div class="col-sm-5 text-center">
+                            <small class="text-muted inline m-t-sm m-b-sm">showing 20-30 of 50 items</small>
+                        </div>
+                        <div class="col-sm-7 text-right text-center-xs">
+                            <ul class="pagination pagination-sm m-t-none m-b-none">
+                                <li><a href=""><i class="fa fa-chevron-left"></i></a></li>
+                                <li><a href="">1</a></li>
+                                <li><a href="">2</a></li>
+                                <li><a href="">3</a></li>
+                                <li><a href="">4</a></li>
+                                <li><a href=""><i class="fa fa-chevron-right"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </section>
+
+</section>
+

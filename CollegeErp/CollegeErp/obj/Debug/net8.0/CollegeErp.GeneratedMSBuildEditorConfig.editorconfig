@@ -1,0 +1,227 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CollegeErp
+build_property.RootNamespace = CollegeErp
+build_property.ProjectDir = D:\DotNetProjects\CollegeErp\CollegeErp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\DotNetProjects\CollegeErp\CollegeErp
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Account/CreateRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDcmVhdGVSb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Account/CreateUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDcmVhdGVVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Account/GetAllRegisterUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxHZXRBbGxSZWdpc3RlclVzZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Account/Loginusers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbnVzZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Account/SetNewPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTZXROZXdQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Assignment/AddAssignment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaWdubWVudFxBZGRBc3NpZ25tZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Assignment/GetAllAssignment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaWdubWVudFxHZXRBbGxBc3NpZ25tZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Assignment/UpdateAssignment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaWdubWVudFxVcGRhdGVBc3NpZ25tZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Fee/AddFee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlXEFkZEZlZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Fee/GetAllFeeDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlXEdldEFsbEZlZURldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Fee/GetFeeById.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlXEdldEZlZUJ5SWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Fee/GetFeeDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlXEdldEZlZURldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Fee/UpdateFee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlXFVwZGF0ZUZlZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Hostel/AddHostelUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9zdGVsXEFkZEhvc3RlbFVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Hostel/GetAllHostelDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9zdGVsXEdldEFsbEhvc3RlbERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Hostel/GetHostelUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9zdGVsXEdldEhvc3RlbFVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Hostel/GetIndividualHostelDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9zdGVsXEdldEluZGl2aWR1YWxIb3N0ZWxEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Hostel/UpdateHostelDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9zdGVsXFVwZGF0ZUhvc3RlbERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Library/AddLibraryUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeVxBZGRMaWJyYXJ5VXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Library/GetAllLibraryDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeVxHZXRBbGxMaWJyYXJ5RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Library/GetIndividualLibraryDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeVxHZXRJbmRpdmlkdWFsTGlicmFyeURldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Library/GetLibUserDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeVxHZXRMaWJVc2VyRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Library/UpdateLibDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeVxVcGRhdGVMaWJEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Shared/_LayoutStudent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRTdHVkZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Shared/_LayoutTeacher.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRUZWFjaGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Student/AddStudent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxBZGRTdHVkZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Student/DeleteStudent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEZWxldGVTdHVkZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Student/GetAllStudents.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxHZXRBbGxTdHVkZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Student/GetIndividualStudent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxHZXRJbmRpdmlkdWFsU3R1ZGVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Student/GetUserById.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxHZXRVc2VyQnlJZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Student/UpdateStudent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxVcGRhdGVTdHVkZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Teacher/AddTeacher.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxBZGRUZWFjaGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Teacher/GetAllTeachers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxHZXRBbGxUZWFjaGVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Teacher/GetIndividualTeacher.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxHZXRJbmRpdmlkdWFsVGVhY2hlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Teacher/GetUserById.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxHZXRVc2VyQnlJZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Teacher/UpdateTeacher.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxVcGRhdGVUZWFjaGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/TimeTable/AddTimeTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGltZVRhYmxlXEFkZFRpbWVUYWJsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/TimeTable/DeleteTimeTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGltZVRhYmxlXERlbGV0ZVRpbWVUYWJsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/TimeTable/GetAllTimeTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGltZVRhYmxlXEdldEFsbFRpbWVUYWJsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/TimeTable/GetIndividualTimeTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGltZVRhYmxlXEdldEluZGl2aWR1YWxUaW1lVGFibGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/TimeTable/GetTimeTableById.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGltZVRhYmxlXEdldFRpbWVUYWJsZUJ5SWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/TimeTable/UpdateTimeTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGltZVRhYmxlXFVwZGF0ZVRpbWVUYWJsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ihv0574uu8

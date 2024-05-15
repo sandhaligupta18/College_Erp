@@ -1,0 +1,94 @@
+﻿@model ModelAccessLayer.StudentDetails
+
+
+
+<h2>DeleteStudent</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.LastName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.StudendId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.StudendId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.EnrollNo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.EnrollNo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DateOfBirth)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DateOfBirth)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Mobile)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Mobile)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Course)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Course)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Branch)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Branch)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.FatherName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.FatherName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.FatherMobile)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.FatherMobile)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.MotherName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.MotherName)
+        </dd>
+    </dl>
+    
+    <form asp-action="DeleteStudent">
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

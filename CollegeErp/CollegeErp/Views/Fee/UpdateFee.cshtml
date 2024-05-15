@@ -1,0 +1,142 @@
+﻿@model ModelAccessLayer.FeeStructure
+
+<section id="main-content">
+    <section class=" wrapper">
+        <div class="agile-grid">
+
+
+            <div class="row">
+
+                <h2 class="text-black">Update Fee Details</h2>
+                <form asp-action="UpdateFee" class="mt-4">
+
+
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <div class="col-lg-6">
+                        <section class="panel-body">
+
+                            <div class="form-group">
+                                <label asp-for="StudentName" class="control-label"></label>
+                                <input asp-for="StudentName" class="form-control" />
+                                <span asp-validation-for="StudentName" class="text-danger"></span>
+                            </div>
+
+                        </section>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <section class="panel-body">
+
+                            <div class="form-group">
+                                <label asp-for="EnrollNo" class="control-label"></label>
+                                <input asp-for="EnrollNo" class="form-control" />
+                                <span asp-validation-for="EnrollNo" class="text-danger"></span>
+                            </div>
+
+                        </section>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <section class="panel-body">
+
+                            <div class="form-group">
+                                <label asp-for="Course" class="control-label"></label>
+                                <input asp-for="Course" class="form-control" />
+                                <span asp-validation-for="Course" class="text-danger"></span>
+                            </div>
+
+
+                        </section>
+                    </div>
+                    <div class="col-lg-6">
+                        <section class="panel-body">
+
+                            <div class="form-group">
+                                <label asp-for="Branch" class="control-label"></label>
+                                <input asp-for="Branch" class="form-control" />
+                                <span asp-validation-for="Branch" class="text-danger"></span>
+                            </div>
+
+                        </section>
+                    </div>
+                    <div class="col-lg-6">
+                        <section class="panel-body">
+
+                            <div class="form-group">
+                                <label asp-for="ConcessionDiscount" class="control-label"></label>
+                                <input asp-for="ConcessionDiscount" class="form-control" />
+                                <span asp-validation-for="ConcessionDiscount" class="text-danger"></span>
+                            </div>
+
+                        </section>
+                    </div>
+                    <div class="col-lg-6">
+                        <section class="panel-body">
+
+                            <div class="form-group">
+                                <label asp-for="TotalFees" class="control-label"></label>
+                                <input asp-for="TotalFees" class="form-control" />
+                                <span asp-validation-for="TotalFees" class="text-danger"></span>
+                            </div>
+
+                        </section>
+                    </div>
+                    <div class="col-lg-6">
+                        <section class="panel-body">
+                            <div class="form-group">
+                                <label asp-for="SubmittedFees" class="control-label"></label>
+                                <input asp-for="SubmittedFees" class="form-control" />
+                                <span asp-validation-for="SubmittedFees" class="text-danger"></span>
+                            </div>
+
+                        </section>
+                    </div>
+                    <div class="col-lg-6">
+                        <section class="panel-body">
+                            <div class="form-group">
+                                <label asp-for="PendingFees" class="control-label"></label>
+                                <input asp-for="PendingFees" class="form-control" />
+                                <span asp-validation-for="PendingFees" class="text-danger"></span>
+                            </div>
+                           
+
+
+                        </section>
+                    </div>
+
+                    <div class="col-lg-6 mt-3 ">
+                        <section class="panel-body ">
+
+                            <div class="form-group  ">
+                                <input type="submit" value="Update Details" class="btn btn-dark w-100 " />
+                            </div>
+
+                        </section>
+                    </div>
+
+                    <div class="col-lg-6 mt-3 ">
+                        <section class="panel-body  ">
+
+                            <div class="form-group  ">
+                                <button class=" btn btn-light border-secondary border border-2 rounded-1 p-2 w-100 "><a class=" text-secondary  " asp-action="GetAllFeeDetails">Back To List</a></button>
+                            </div>
+
+                        </section>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+</section>
+
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+

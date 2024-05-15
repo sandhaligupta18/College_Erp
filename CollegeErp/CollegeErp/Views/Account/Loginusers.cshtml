@@ -1,0 +1,94 @@
+﻿@model ModelAccessLayer.LoginUser
+
+@{
+   
+    Layout = null;
+}﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>@ViewData["Title"] - CollegeErp</title>
+	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/CollgeErp.styles.css" asp-append-version="true" />	
+	<link href="~/assets/css/bootstrap.css" rel="stylesheet" />
+	<link href="~/assets/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="~/assets/css/style.css" rel="stylesheet" />
+	<link href="~/assets/css/style-responsive.css" rel="stylesheet" />
+	<link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<link href="~/assets/css/font-awesome.css" rel="stylesheet" />
+	<link href="~/assets/css/font.css" rel="stylesheet" />
+	<link href="~/assets/css/morris.css" rel="stylesheet" />
+	<link href="~/assets/css/monthly.css" rel="stylesheet" />
+	<script src="~/assets/js/jquery2.0.3.min.js"></script>
+	<script src="~/assets/js/raphael-min.js"></script>
+	<script src="~/assets/js/morris.js"></script>
+</head>
+<body>
+    <div class="log-w3">
+        <div class="w3layouts-main">
+            <h2>Sign In Now</h2>
+            <form asp-action="Loginusers">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+				<div class="form-group">
+					<label for="selection">Select one:</label>
+					<select id="selection" name="selection">
+						<option><label  class="control-label">Enroll </label></option>
+						<option><label  class="control-label"> TeacherId</label></option>						
+					</select>
+					@* <label asp-for="UniqueValue" class="control-label"></label> *@
+					<input asp-for="UniqueValue" class="form-control mt-2" />
+					<span asp-validation-for="UniqueValue" class="text-danger"></span>
+				</div>
+				@* <div class="form-group">
+					<label asp-for="UniqueValue" class="control-label"></label>
+					<input asp-for="UniqueValue" class="form-control" />
+					<span asp-validation-for="UniqueValue" class="text-danger"></span>
+				</div> *@
+                <div class="form-group">
+                    <label asp-for="Email" class="control-label"></label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Password" class="control-label"></label>
+                    <input asp-for="Password" class="form-control" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+				<div class=" d-flex justify-content-around">
+					<h6><a href="/Account/ResetPassword">Change Password</a></h6>
+					<h6><a href="/Account/SetNewPassword">Forgot Password?</a></h6>
+					</div>
+				<div class=" mt-4"><p>Don't Have an Account ?<a href="/Account/CreateUser">Create an account</a></p></div>		
+            </form>            
+        </div>
+    </div>
+	<script src="~/assets/js/bootstrap.js"></script>
+	<script src="~/assets/js/jquery.dcjqaccordion.2.7.js"></script>
+	<script src="~/assets/js/scripts.js"></script>
+	<script src="~/assets/js/jquery.slimscroll.js"></script>
+	<script src="~/assets/js/jquery.nicescroll.js"></script>
+	<script src="~/assets/js/jquery.scrollto.js"></script>
+	<script src="~/assets/js/monthly.js"></script>
+	<footer class="border-top footer text-muted">
+		<div class="container">
+			&copy; 2024 - CollegeErp - <a asp-area="" asp-controller="CollegeErp" asp-action="Privacy">Privacy</a>
+		</div>
+	</footer>
+	<script src="~/lib/jquery/dist/jquery.min.js"></script>
+	<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="~/js/site.js" asp-append-version="true"></script>
+
+</body>
+</html>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+

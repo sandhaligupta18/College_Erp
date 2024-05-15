@@ -1,0 +1,17 @@
+D:\DotNetProjects\CollegeErp\BussinessAccessLayer\bin\Debug\net8.0\BussinessAccessLayer.deps.json
+D:\DotNetProjects\CollegeErp\BussinessAccessLayer\bin\Debug\net8.0\BussinessAccessLayer.dll
+D:\DotNetProjects\CollegeErp\BussinessAccessLayer\bin\Debug\net8.0\BussinessAccessLayer.pdb
+D:\DotNetProjects\CollegeErp\BussinessAccessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+D:\DotNetProjects\CollegeErp\BussinessAccessLayer\bin\Debug\net8.0\ModelAccessLayer.dll
+D:\DotNetProjects\CollegeErp\BussinessAccessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+D:\DotNetProjects\CollegeErp\BussinessAccessLayer\bin\Debug\net8.0\ModelAccessLayer.pdb
+D:\DotNetProjects\CollegeErp\BussinessAccessLayer\obj\Debug\net8.0\BussinessAccessLayer.csproj.AssemblyReference.cache
+D:\DotNetProjects\CollegeErp\BussinessAccessLayer\obj\Debug\net8.0\BussinessAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\DotNetProjects\CollegeErp\BussinessAccessLayer\obj\Debug\net8.0\BussinessAccessLayer.AssemblyInfoInputs.cache
+D:\DotNetProjects\CollegeErp\BussinessAccessLayer\obj\Debug\net8.0\BussinessAccessLayer.AssemblyInfo.cs
+D:\DotNetProjects\CollegeErp\BussinessAccessLayer\obj\Debug\net8.0\BussinessAccessLayer.csproj.CoreCompileInputs.cache
+D:\DotNetProjects\CollegeErp\BussinessAccessLayer\obj\Debug\net8.0\Bussines.28E92536.Up2Date
+D:\DotNetProjects\CollegeErp\BussinessAccessLayer\obj\Debug\net8.0\BussinessAccessLayer.dll
+D:\DotNetProjects\CollegeErp\BussinessAccessLayer\obj\Debug\net8.0\refint\BussinessAccessLayer.dll
+D:\DotNetProjects\CollegeErp\BussinessAccessLayer\obj\Debug\net8.0\BussinessAccessLayer.pdb
+D:\DotNetProjects\CollegeErp\BussinessAccessLayer\obj\Debug\net8.0\ref\BussinessAccessLayer.dll

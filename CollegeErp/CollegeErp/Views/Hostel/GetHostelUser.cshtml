@@ -1,0 +1,78 @@
+﻿@model ModelAccessLayer.Hostel
+
+
+<div>
+    <section id="main-content">
+        <section class="wrapper">
+            <div class="table-agile-info d-flex justify-content-center">
+                <h2 class="text-black">Get Hostel Details</h2>
+                <dl class="dl-horizontal">
+                    <dt>
+                        @Html.DisplayNameFor(model => model.StudentName)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.StudentName)
+                    </dd>
+                    <dt>
+                        @Html.DisplayNameFor(model => model.EnrollNo)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.EnrollNo)
+                    </dd>
+                    <dt>
+                        @Html.DisplayNameFor(model => model.HostelName)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.HostelName)
+                    </dd>
+                    <dt>
+                        @Html.DisplayNameFor(model => model.RoomNo)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.RoomNo)
+                    </dd>
+                    <dt>
+                        @Html.DisplayNameFor(model => model.AllocationDate)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.AllocationDate)
+                    </dd>
+                    <dt>
+                        @Html.DisplayNameFor(model => model.IsActive)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.IsActive)
+                    </dd>
+                    <dt>
+                        @Html.DisplayNameFor(model => model.TotalFee)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.TotalFee)
+                    </dd>
+                    <dt>
+                        @Html.DisplayNameFor(model => model.SubmittedFee)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.SubmittedFee)
+                    </dd>
+                    <dt>
+                        @Html.DisplayNameFor(model => model.PendingFee)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.PendingFee)
+                    </dd>
+                   
+                </dl>
+            </div>
+        </section>
+
+    </section>
+
+
+
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="Index">Back to List</a>
+</div>
+

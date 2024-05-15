@@ -1,0 +1,66 @@
+﻿@model ModelAccessLayer.FeeStructure
+<section id="main-content">
+    <section class="wrapper">
+        <div class="typo-agile">
+
+            <div class="row">
+                <div class="row-md-4 ">
+                    <h2 class="text-black">Add Fee Details</h2>
+                    <form asp-action="AddFee" class="mt-4">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-group">
+                            <label asp-for="StudentName" class="control-label"></label>
+                            <input asp-for="StudentName" class="form-control" placeholder="Enter Your First Name" />
+                            <span asp-validation-for="StudentName" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="EnrollNo" class="control-label"></label>
+                            <input asp-for="EnrollNo" class="form-control" />
+                            <span asp-validation-for="EnrollNo" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Course" class="control-label"></label>
+                            <input asp-for="Course" class="form-control" />
+                            <span asp-validation-for="Course" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Branch" class="control-label"></label>
+                            <input asp-for="Branch" class="form-control" />
+                            <span asp-validation-for="Branch" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="ConcessionDiscount" class="control-label"></label>
+                            <input asp-for="ConcessionDiscount" class="form-control" />
+                            <span asp-validation-for="ConcessionDiscount" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="TotalFees" class="control-label"></label>
+                            <input asp-for="TotalFees" class="form-control" />
+                            <span asp-validation-for="TotalFees" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="SubmittedFees" class="control-label"></label>
+                            <input asp-for="SubmittedFees" class="form-control" />
+                            <span asp-validation-for="SubmittedFees" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="PendingFees" class="control-label"></label>
+                            <input asp-for="PendingFees" class="form-control" />
+                            <span asp-validation-for="PendingFees" class="text-danger"></span>
+                        </div>
+                        <div class="form-group ">
+                            <input type="submit" value="Add" class="btn  btn-dark w-100 " />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    @* 		  <div class="footer">
+    <div class="wthree-copyright">
+    <p>© 2017 Visitors. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
+    </div>
+    </div> *@
+    <!-- / footer -->
+</section>

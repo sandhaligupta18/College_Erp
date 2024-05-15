@@ -1,0 +1,98 @@
+﻿@model IEnumerable<ModelAccessLayer.FeeStructure>
+
+
+<section id="main-content">
+    <section class="wrapper">
+        <div class="table-agile-info">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    Fee Details
+                </div>
+
+                <div class="table-responsive">
+                   
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.StudentName)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.EnrollNo)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Course)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Branch)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.ConcessionDiscount)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.TotalFees)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.SubmittedFees)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.PendingFees)
+                                </th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.StudentName)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.EnrollNo)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Course)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Branch)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.ConcessionDiscount)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.TotalFees)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.SubmittedFees)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.PendingFees)
+                                    </td>
+
+                                    <td class="d-flex flex-row justify-content-around">
+                                        <button class="btn btn-light border-secondary border border-2 rounded-1 ">
+                                            @Html.ActionLink("Update", "UpdateFee", new { id = item.EnrollNo })
+                                        </button>
+                                        <button class="btn btn-light border-secondary border border-2 rounded-1 ms-1">
+                                            @Html.ActionLink("Details", "GetFeeById", new { id = item.EnrollNo })
+                                        </button>
+
+                                        <button class="btn btn-light border-secondary border border-2 rounded-1 ms-1">
+                                            @Html.ActionLink("Remove", "DeleteFee", new { id = item.EnrollNo })
+                                        </button>
+
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+              
+            </div>
+        </div>
+    </section>
+
+</section>
+
+

@@ -1,0 +1,72 @@
+﻿@model ModelAccessLayer.TeacherDetails
+
+<div>
+  
+    <section id="main-content">
+        <section class="wrapper">
+            <h2 class="text-black p-3">Teacher Details</h2>
+            <div class="table-agile-info d-flex justify-content-center">
+                <dl class="dl-horizontal">
+                    <dt>
+                        @Html.DisplayNameFor(model => model.FirstName)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.FirstName)
+                    </dd>
+                    <dt>
+                        @Html.DisplayNameFor(model => model.LastName)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.LastName)
+                    </dd>
+                    <dt>
+                        @Html.DisplayNameFor(model => model.TeacherId)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.TeacherId)
+                    </dd>
+                    <dt>
+                        @Html.DisplayNameFor(model => model.DateOfBirth)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.DateOfBirth)
+                    </dd>
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Address)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.Address)
+                    </dd>
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Mobile)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.Mobile)
+                    </dd>
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Department)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.Department)
+                    </dd>
+                    <dt>
+                        @Html.DisplayNameFor(model => model.SubjectTeach)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.SubjectTeach)
+                    </dd>
+                </dl>
+            </div>
+        </section>
+
+    </section>
+
+
+
+
+
+</div>
+<div>
+    @Html.ActionLink("Edit", "UpdateTeacher", new { id = Model.TeacherId }) |
+    <a asp-action="GetAllTeachers">Back to List</a>
+</div>

@@ -1,0 +1,561 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CollegeErp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CollegeErp.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\font-awesome.css"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\css\\font.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\font.css"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\css\\jqvmap.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\jqvmap.css"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\css\\lightbox.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\lightbox.css"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\css\\minimal.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\minimal.css"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\css\\monthly.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\monthly.css"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\css\\morris.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\morris.css"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\css\\style-responsive.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\style-responsive.css"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\images\\1.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\1.png"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\images\\2.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\2.png"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\images\\3.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\3.png"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\images\\Gallery.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\Gallery.jpg"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\images\\Vidya-Campus-Meerut.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\Vidya-Campus-Meerut.jpg"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\images\\bg.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\bg.jpg"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\images\\close.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\close.png"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\images\\collegevidya.jfif",
+      "PackagePath": "staticwebassets\\Assets\\images\\collegevidya.jfif"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\images\\g1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\g1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\images\\g2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\g2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\images\\g3.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\g3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\images\\g4.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\g4.jpg"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\images\\g5.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\g5.jpg"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\images\\g6.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\g6.jpg"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\images\\g7.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\g7.jpg"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\images\\g8.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\g8.jpg"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\images\\g9.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\g9.jpg"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\images\\gallery1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\gallery1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\images\\gallery3.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\gallery3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\images\\mail.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\mail.png"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\images\\minimal.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\minimal.png"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\images\\nav-expand.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\nav-expand.png"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\images\\next.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\next.png"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\images\\pass.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\pass.png"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\images\\prev.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\prev.png"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\images\\search-icon.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\search-icon.png"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\js\\jquery.dcjqaccordion.2.7.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\jquery.dcjqaccordion.2.7.js"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\js\\jquery.fileupload.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\jquery.fileupload.js"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\js\\jquery.nicescroll.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\jquery.nicescroll.js"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\js\\jquery.scrollTo.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\jquery.scrollTo.js"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\js\\jquery.slimscroll.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\jquery.slimscroll.js"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\js\\jquery.vmap.asia.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\jquery.vmap.asia.js"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\js\\jquery.vmap.australia.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\jquery.vmap.australia.js"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\js\\jquery.vmap.europe.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\jquery.vmap.europe.js"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\js\\jquery.vmap.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\jquery.vmap.js"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\js\\jquery.vmap.sampledata.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\jquery.vmap.sampledata.js"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\js\\jquery.vmap.world.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\jquery.vmap.world.js"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\js\\jquery2.0.3.min.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\jquery2.0.3.min.js"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\js\\lightbox-plus-jquery.min.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\lightbox-plus-jquery.min.js"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\js\\monthly.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\monthly.js"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\js\\morris.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\morris.js"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\js\\raphael-min.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\raphael-min.js"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\js\\script.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\script.js"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\Assets\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\scripts.js"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\images\\08fe9e56-2451-49e9-b2ab-e62e93efbd02_Sandhali_Gupta (2).pdf",
+      "PackagePath": "staticwebassets\\images\\08fe9e56-2451-49e9-b2ab-e62e93efbd02_Sandhali_Gupta (2).pdf"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\images\\12316c74-d3ad-4fa3-bc69-ed4480e67fb3_Sandhali_Gupta (2).pdf",
+      "PackagePath": "staticwebassets\\images\\12316c74-d3ad-4fa3-bc69-ed4480e67fb3_Sandhali_Gupta (2).pdf"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\images\\5905113d-1cd6-4ce1-843c-c2690adb1963_1186417083pexels-pixabay-326055.jpg",
+      "PackagePath": "staticwebassets\\images\\5905113d-1cd6-4ce1-843c-c2690adb1963_1186417083pexels-pixabay-326055.jpg"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\images\\83601ea1-ee71-4719-99ed-dd31bb4491d9_Admit Card.pdf",
+      "PackagePath": "staticwebassets\\images\\83601ea1-ee71-4719-99ed-dd31bb4491d9_Admit Card.pdf"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\images\\94dedca7-6afc-4545-8f55-566547bd2082_Sandhali_Gupta (2).pdf",
+      "PackagePath": "staticwebassets\\images\\94dedca7-6afc-4545-8f55-566547bd2082_Sandhali_Gupta (2).pdf"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\images\\9995cd22-a84c-47b3-99d9-3527f9e70bd0_pexels-pixabay-326055.jpg",
+      "PackagePath": "staticwebassets\\images\\9995cd22-a84c-47b3-99d9-3527f9e70bd0_pexels-pixabay-326055.jpg"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\images\\ca594be5-85af-406d-853f-e19c4084c030_504692911pexels-pixabay-326055.jpg",
+      "PackagePath": "staticwebassets\\images\\ca594be5-85af-406d-853f-e19c4084c030_504692911pexels-pixabay-326055.jpg"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\images\\ee432768-aca8-4b99-8491-f60cc9d04717_pexels-pixabay-326055.jpg351882023",
+      "PackagePath": "staticwebassets\\images\\ee432768-aca8-4b99-8491-f60cc9d04717_pexels-pixabay-326055.jpg351882023"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\images\\f4aa9754-ff0b-41fb-b9d0-905d3e53838c_Sandhali_Gupta (2).pdf",
+      "PackagePath": "staticwebassets\\images\\f4aa9754-ff0b-41fb-b9d0-905d3e53838c_Sandhali_Gupta (2).pdf"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\DotNetProjects\\CollegeErp\\CollegeErp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CollegeErp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CollegeErp.props",
+      "PackagePath": "build\\CollegeErp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CollegeErp.props",
+      "PackagePath": "buildMultiTargeting\\CollegeErp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CollegeErp.props",
+      "PackagePath": "buildTransitive\\CollegeErp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

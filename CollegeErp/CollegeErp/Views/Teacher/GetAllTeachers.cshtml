@@ -1,0 +1,102 @@
+﻿@model IEnumerable<ModelAccessLayer.TeacherDetails>
+
+
+<link href="~/css/site.css" rel="stylesheet" />
+
+<section class="main-content">
+    <section class="wrapper content">
+        <h2 class="text-black p-3">Teacher Details</h2>
+        <div class="typo-agile p-0">
+            
+            <p class="p-4">
+                
+                <button  class=" btn btn-light border-secondary border border-2 rounded-1 p-2 "><a class=" text-secondary  " asp-action="AddTeacher">Add New Teacher</a></button>
+
+            </p>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.FirstName)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.LastName)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.TeacherId)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.DateOfBirth)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Address)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Mobile)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Department)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.SubjectTeach)
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.FirstName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.LastName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.TeacherId)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.DateOfBirth)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Address)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Mobile)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Department)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.SubjectTeach)
+                            </td>
+                            <td  class="d-flex flex-row justify-content-around">
+                                <button class="btn btn-light border-secondary border border-2 rounded-1 ">
+                                    @Html.ActionLink("Update", "UpdateTeacher", new { id = item.TeacherId })
+                                 </button>
+                                <button class="btn btn-light border-secondary border border-2 rounded-1 ms-1">
+                                    @Html.ActionLink("Details", "GetUserById", new { id = item.TeacherId })
+                                </button>
+
+                                <button class="btn btn-light border-secondary border border-2 rounded-1 ms-1"> 
+                                    @Html.ActionLink("Remove", "DeleteTeacher", new { id = item.TeacherId })
+                                    </button>
+
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+
+        </div>
+    </section>
+    <!-- footer -->
+    @* 		  <div class="footer">
+    <div class="wthree-copyright">
+    <p>© 2017 Visitors. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
+    </div>
+    </div> *@
+    <!-- / footer -->
+</section>

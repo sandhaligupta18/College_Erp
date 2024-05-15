@@ -1,0 +1,74 @@
+﻿@model IEnumerable<ModelAccessLayer.TimeTable>
+
+
+
+<section id="main-content">
+    <section class="wrapper">
+        <div class="table-agile-info">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    TimeTable Details
+                </div>
+
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.TeacherId)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.SubjectId)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Days)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Branch)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.StartLecture)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.EndLecture)
+                                </th>
+                             
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.TeacherId)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.SubjectId)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Days)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Branch)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.StartLecture)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.EndLecture)
+                                    </td>
+
+
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</section>
+
+

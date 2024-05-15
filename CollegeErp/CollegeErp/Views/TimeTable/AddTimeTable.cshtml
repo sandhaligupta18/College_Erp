@@ -1,0 +1,109 @@
+﻿@model ModelAccessLayer.TimeTable
+
+
+
+<section id="main-content">
+    <section class=" wrapper">
+        <div class="agile-grid">
+
+
+            <div class="row">
+
+                <h2 class="text-black">Add TimeTable</h2>
+                <form asp-action="AddTimeTable" class="mt-4">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <div class="col-lg-6">
+                        <section class="panel-body">
+
+                            <div class="form-group">
+                                <label asp-for="TeacherId" class="control-label"></label>
+                                <input asp-for="TeacherId" class="form-control" />
+                                <span asp-validation-for="TeacherId" class="text-danger"></span>
+                            </div>
+
+                        </section>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <section class="panel-body">
+
+                            <div class="form-group">
+                                <label asp-for="SubjectId" class="control-label"></label>
+                                <input asp-for="SubjectId" class="form-control" />
+                                <span asp-validation-for="SubjectId" class="text-danger"></span>
+                            </div>
+
+                        </section>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <section class="panel-body">
+
+                            <div class="form-group">
+                                <label asp-for="Days" class="control-label"></label>
+                                <input asp-for="Days" class="form-control" />
+                                <span asp-validation-for="Days" class="text-danger"></span>
+                            </div>
+
+
+                        </section>
+                    </div>
+                    <div class="col-lg-6">
+                        <section class="panel-body">
+
+                            <div class="form-group">
+                                <label asp-for="Branch" class="control-label"></label>
+                                <input asp-for="Branch" class="form-control" />
+                                <span asp-validation-for="Branch" class="text-danger"></span>
+                            </div>
+
+                        </section>
+                    </div>
+                    <div class="col-lg-6">
+                        <section class="panel-body">
+
+                            <div class="form-group">
+                                <label asp-for="StartLecture" class="control-label"></label>
+                                <input asp-for="StartLecture" class="form-control" />
+                                <span asp-validation-for="StartLecture" class="text-danger"></span>
+                            </div>
+
+                        </section>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <section class="panel-body">
+
+                            <div class="form-group">
+                                <label asp-for="EndLecture" class="control-label"></label>
+                                <input asp-for="EndLecture" class="form-control" />
+                                <span asp-validation-for="EndLecture" class="text-danger"></span>
+                            </div>
+                            @* <div class="panel-body">col-lg-6</div> *@
+                        </section>
+                    </div>
+                 
+                    <div class="col-lg-6 mt-3 ">
+                        <section class="panel-body ">
+                            <div class="form-group  ">
+                                <input type="submit" value="Add" class="btn btn-dark w-100 " />
+                            </div>
+                        </section>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</section>
+
+@* <div>
+    <a asp-action="Index">Back to List</a>
+</div> *@
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+

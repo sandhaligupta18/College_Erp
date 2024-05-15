@@ -1,0 +1,46 @@
+﻿@model ModelAccessLayer.TimeTable
+
+
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TeacherId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TeacherId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SubjectId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SubjectId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Days)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Days)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.StartLecture)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.StartLecture)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.EndLecture)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.EndLecture)
+        </dd>       
+    </dl>
+
+    <form asp-action="DeleteStudent">
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>
+

@@ -1,0 +1,64 @@
+﻿@model ModelAccessLayer.LibraryDetails
+
+
+
+
+
+<div>
+  
+
+    <section id="main-content">
+        <section class="wrapper">
+            <div class="table-agile-info d-flex justify-content-center">
+                <h2 class="text-black">Library Details</h2>
+                <dl class="dl-horizontal">
+                    <dt>
+                        @Html.DisplayNameFor(model => model.IssuedBy)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.IssuedBy)
+                    </dd>
+                    <dt>
+                        @Html.DisplayNameFor(model => model.EnrollNo)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.EnrollNo)
+                    </dd>
+                    <dt>
+                        @Html.DisplayNameFor(model => model.BookId)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.BookId)
+                    </dd>
+                    <dt>
+                        @Html.DisplayNameFor(model => model.BookName)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.BookName)
+                    </dd>
+                    <dt>
+                        @Html.DisplayNameFor(model => model.IssuedOn)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.IssuedOn)
+                    </dd>
+                    <dt>
+                        @Html.DisplayNameFor(model => model.ReturnDate)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.ReturnDate)
+                    </dd>                   
+                </dl>
+            </div>
+        </section>
+
+    </section>
+
+
+
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="Index">Back to List</a>
+</div>
+
