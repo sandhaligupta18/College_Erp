@@ -15,15 +15,43 @@ function IsEmail(email) {
     }
 }
 
-function IsName(name) {
+//$('.AlphabetsOnly').keypress(function (e) {
+//    var regex = new RegExp(/^[a-zA-Z\s]+$/);
+//    var str = String.fromCharCode(!e.charCode ? e.which : e.charCode);
+//    if (regex.test(str)) {
+//        return true;
+//    }
+//    else {
+//        e.preventDefault();
+//        return false;
+//    }
+//});
+
+function IsName(e) {
     debugger;
-    const regex = /^[a-zA-Z]+$/;
-    if (!regex.test(name)) {
-        return false;
-    }
-    else {
+
+    var regex = new RegExp(/^[a-zA-Z\s]+$/);
+    var str = $('#e').val();
+    if (regex.test(str)) {
         return true;
     }
-
+    else {
+        e.preventDefault();
+        return false;
+    }
 }
+
+    //const regex = /^[a-zA-Z]+$/;
+    //if (!regex.test(e)) {
+    //    return false;
+    //}
+    //else {
+    //    return true;
+    //}
+
+  
+
+
+
+
 

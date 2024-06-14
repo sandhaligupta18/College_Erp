@@ -1,5 +1,8 @@
 ﻿@model ModelAccessLayer.LoginUser
 
+@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
 @{
    
     Layout = null;
@@ -29,41 +32,86 @@
 <body>
     <div class="log-w3">
         <div class="w3layouts-main">
-            <h2>Sign In Now</h2>
+            <h2>Sign In Now</h2>			
             <form asp-action="Loginusers">
-                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-				<div class="form-group">
-					<label for="selection">Select one:</label>
-					<select id="selection" name="selection">
-						<option><label  class="control-label">Enroll </label></option>
-						<option><label  class="control-label"> TeacherId</label></option>						
-					</select>
-					@* <label asp-for="UniqueValue" class="control-label"></label> *@
-					<input asp-for="UniqueValue" class="form-control mt-2" />
-					<span asp-validation-for="UniqueValue" class="text-danger"></span>
-				</div>
-				@* <div class="form-group">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>			
+				@{
+					@if (@ViewBag.Data == "Admin")
+					{
+						<div class="form-group">
+							<label asp-for="Email" class="control-label"></label>
+							<input asp-for="Email" class="form-control" />
+							<span asp-validation-for="Email" class="text-danger"></span>
+						</div>
+						<div class="form-group">
+							<label asp-for="Password" class="control-label"></label>
+							<input asp-for="Password" class="form-control" />
+							<span asp-validation-for="Password" class="text-danger"></span>
+						</div>
+					}
+					else if (@ViewBag.Data == "Teacher" )
+					{
+						
+						// <div class="form-group">
+						// 	<label for="selection">Select one:</label>
+
+
+						// 	<select id="selection" name="selection">
+						// 		<option><label  class="control-label">Enroll </label></option>
+						// 		<option><label  class="control-label"> TeacherId</label></option>						
+						// 	</select>
+						// 	@* <label asp-for="UniqueValue" class="control-label"></label> *@
+						// 	<input asp-for="UniqueValue" class="form-control mt-2" />
+						// 	<span asp-validation-for="UniqueValue" class="text-danger"></span>
+						// </div>
+						@* <div class="form-group">
 					<label asp-for="UniqueValue" class="control-label"></label>
 					<input asp-for="UniqueValue" class="form-control" />
 					<span asp-validation-for="UniqueValue" class="text-danger"></span>
 				</div> *@
-                <div class="form-group">
-                    <label asp-for="Email" class="control-label"></label>
-                    <input asp-for="Email" class="form-control" />
-                    <span asp-validation-for="Email" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="Password" class="control-label"></label>
-                    <input asp-for="Password" class="form-control" />
-                    <span asp-validation-for="Password" class="text-danger"></span>
-                </div>
-                <div class="form-group">
+						
+						<div class="form-group">
+							<label asp-for="UniqueValue" class="control-label">TeacherId</label>
+							<input asp-for="UniqueValue" class="form-control" />
+							<span asp-validation-for="UniqueValue" class="text-danger"></span>
+						</div>
+						<div class="form-group">
+							<label asp-for="Email" class="control-label"></label>
+							<input asp-for="Email" class="form-control" />
+							<span asp-validation-for="Email" class="text-danger"></span>
+						</div>
+						<div class="form-group">
+							<label asp-for="Password" class="control-label"></label>
+							<input asp-for="Password" class="form-control" />
+							<span asp-validation-for="Password" class="text-danger"></span>
+						</div>
+					}
+					else if (@ViewBag.Data == "Student")
+					{
+						<div class="form-group">
+							<label asp-for="UniqueValue" class="control-label">Enroll No.</label>
+							<input asp-for="UniqueValue" class="form-control" />
+							<span asp-validation-for="UniqueValue" class="text-danger"></span>
+						</div>
+						<div class="form-group">
+							<label asp-for="Email" class="control-label"></label>
+							<input asp-for="Email" class="form-control" />
+							<span asp-validation-for="Email" class="text-danger"></span>
+						</div>
+						<div class="form-group">
+							<label asp-for="Password" class="control-label"></label>
+							<input asp-for="Password" class="form-control" />
+							<span asp-validation-for="Password" class="text-danger"></span>
+						</div>
+					}
+					<div class="form-group">
                     <input type="submit" value="Create" class="btn btn-primary" />
                 </div>
 				<div class=" d-flex justify-content-around">
 					<h6><a href="/Account/ResetPassword">Change Password</a></h6>
 					<h6><a href="/Account/SetNewPassword">Forgot Password?</a></h6>
 					</div>
+					}
 				<div class=" mt-4"><p>Don't Have an Account ?<a href="/Account/CreateUser">Create an account</a></p></div>		
             </form>            
         </div>

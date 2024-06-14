@@ -1,0 +1,85 @@
+﻿@model IEnumerable<ModelAccessLayer.SubjectAssignments>
+
+
+<link href="~/css/site.css" rel="stylesheet" />
+
+<section class="main-content">
+    <section class="wrapper content">
+        <h2 class="text-black p-3">Teacher Details</h2>
+        <div class="typo-agile p-0">
+
+            <p class="p-4">
+
+                <button class=" btn btn-light border-secondary border border-2 rounded-1 p-2 "><a class=" text-secondary  " asp-action="GetAllAssign">Add New Teacher</a></button>
+
+            </p>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.SubjectId)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Course)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Branch)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.CompletionDate)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.FilePath)
+                        </th>
+                     
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.SubjectId)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Course)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Branch)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CompletionDate)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.FilePath)
+                            </td>
+                            <td class="d-flex flex-row justify-content-around">
+                                <button class="btn btn-light border-secondary border border-2 rounded-1 ">
+                                    @Html.ActionLink("Update", "UpdateAssignment", new { id = item.AssignmentsId })
+                                </button>
+                                <button class="btn btn-light border-secondary border border-2 rounded-1 ms-1">
+                                    @Html.ActionLink("Details", "GetAssignById", new { id = item.AssignmentsId })
+                                </button> 
+
+                                <button class="btn btn-light border-secondary border border-2 rounded-1 ms-1">
+                                    @Html.ActionLink("Remove", "DeleteAssignment", new { id = item.AssignmentsId })
+                                </button>
+
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+
+        </div>
+    </section>
+    <!-- footer -->
+    	@*   <div class="footer">
+    <div class="wthree-copyright">
+    <p>© 2017 Visitors. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
+    </div>
+    </div> *@
+    <!-- / footer -->
+</section>
+

@@ -74,9 +74,9 @@ namespace BussinessAccessLayer.Implementation
             }
         }
 
-        public async Task<LibraryDetails> GetLibUserDetail(string EnrollNo)
+        public async Task<LibraryDetails> GetLibUserDetail(int id)
         {
-            return await _appDBContext.LibraryData.FindAsync(EnrollNo);
+            return await _appDBContext.LibraryData.FindAsync(id);
 
         }
         public async Task<bool> UpdateLibDetails(LibraryDetails libraryDetails)
@@ -102,7 +102,7 @@ namespace BussinessAccessLayer.Implementation
         }
 
 
-        public async Task<bool> DeleteLibDetails(string EnrollNo)
+        public async Task<bool> DeleteLibDetails(int id)
         {
             try
             {
@@ -110,7 +110,7 @@ namespace BussinessAccessLayer.Implementation
                 {
                     return false;
                 }
-                var data = await _appDBContext.LibraryData.FindAsync(EnrollNo);
+                var data = await _appDBContext.LibraryData.FindAsync(id);
                 if (data == null)
                 {
                     return false;

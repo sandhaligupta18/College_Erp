@@ -251,3 +251,4 @@ D:\DotNetProjects\CollegeErp\CollegeErp\bin\Debug\net8.0\runtimes\win\lib\net7.0
 D:\DotNetProjects\CollegeErp\CollegeErp\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 D:\DotNetProjects\CollegeErp\CollegeErp\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 D:\DotNetProjects\CollegeErp\CollegeErp\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+D:\DotNetProjects\CollegeErp\CollegeErp\obj\Debug\net8.0\CollegeErp.sourcelink.json

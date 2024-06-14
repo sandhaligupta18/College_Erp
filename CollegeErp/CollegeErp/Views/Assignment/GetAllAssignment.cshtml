@@ -21,7 +21,6 @@
                                 <th>
                                     @Html.DisplayNameFor(model => model.SubjectId)
                                 </th>
-
                                 <th>
                                     @Html.DisplayNameFor(model => model.Course)
                                 </th>
@@ -40,11 +39,8 @@
                         <tbody>
                             @foreach (var item in Model)
                             {
-                                <tr>
-
-                                  
+                                <tr>                                  
                                     <td>
-
                                         @Html.DisplayFor(modelItem => item.SubjectId)
                                     </td>
                                     <td>
@@ -57,7 +53,9 @@
                                         @Html.DisplayFor(modelItem => item.CompletionDate)
                                     </td>
                                     <td>
-                                        @Html.DisplayFor(modelItem => item.FilePath)
+                                        <a asp-action="DownloadFile" asp-route-filePath="@item.FilePath">Download</a>
+
+                                       @*  @Html.DisplayFor(modelItem => item.FilePath) *@
                                         @* <a href="/images/@item.FilePath" asp-append-version="true" /> *@
                                         @*  <img src="~/images/@item.ProfilePicture"
                                     class="rounded-circle"
@@ -67,14 +65,14 @@
                                    
                                     <td class="d-flex flex-row justify-content-around">
                                         <button class="btn btn-light border-secondary border border-2 rounded-1 ">
-                                            @Html.ActionLink("Update", "UpdateAssignment", new { /* id = item.AssignmentId */ })
+                                            @Html.ActionLink("Update", "UpdateAssignment", new { id = item.SubjectId })
                                         </button>
                                         <button class="btn btn-light border-secondary border border-2 rounded-1 ms-1">
-                                            @Html.ActionLink("Details", "GetAssignment", new { /* id = item.AssignmentId */ })
+                                            @Html.ActionLink("Details", "GetAssignment", new { id = item.AssignId })
                                         </button>
 
                                         <button class="btn btn-light border-secondary border border-2 rounded-1 ms-1">
-                                            @Html.ActionLink("Remove", " DeleteAssignment", new { /* id = item.SubjectId*/ } )
+                                            @Html.ActionLink("Remove", "DeleteAssignment", new { id = item.SubjectId })
                                         </button>
 
                                     </td>
@@ -85,7 +83,6 @@
                 </div>
                 <footer class="panel-footer">
                     <div class="row">
-
                         <div class="col-sm-5 text-center">
                             <small class="text-muted inline m-t-sm m-b-sm">showing 20-30 of 50 items</small>
                         </div>
@@ -104,6 +101,5 @@
             </div>
         </div>
     </section>
-
 </section>
 

@@ -4,6 +4,11 @@ using DataAccessLayer.ApplicationDB_Context;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using ModelAccessLayer;
+//using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Components;
+
+
+
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -28,6 +33,7 @@ builder.Services.AddScoped<ILibraryServices,LibraryServices>();
 builder.Services.AddScoped<IHostelServices, HostelServices>();
 builder.Services.AddScoped<ITimeTableServices, TimeTableServices>();
 builder.Services.AddScoped<IAssignmentServicescs, AssignmentServices>();
+builder.Services.AddScoped<IAssignmentsServices, AssignmentsServices>();
 
 
 builder.Services.AddSession();
@@ -53,8 +59,9 @@ app.UseAuthentication();
 
 app.UseAuthorization();
 
+
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Account}/{action=Loginusers}/{id?}");
+    pattern: "{controller=Account}/{action=CheckUsers}/{id?}");
 
 app.Run();

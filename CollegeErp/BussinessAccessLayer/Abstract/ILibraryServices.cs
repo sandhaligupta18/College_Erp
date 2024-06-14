@@ -12,8 +12,8 @@ namespace BussinessAccessLayer.Abstract
         public Task<bool> AddLibraryUser(LibraryDetails libraryDetails);
         public Task<IEnumerable<LibraryDetails>> GetLibraryDetails();
         public Task<bool> UpdateLibDetails(LibraryDetails libraryDetails);
-        public Task<LibraryDetails> GetLibUserDetail(string EnrollNo);
-        public Task<bool> DeleteLibDetails(string EnrollNo);
+        public Task<LibraryDetails> GetLibUserDetail(int id);
+        public Task<bool> DeleteLibDetails(int id);
 
         //stored Procedure
         public List<LibraryDetails> GetLibraryDetailsById(string EnrollNo);

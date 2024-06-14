@@ -12,7 +12,8 @@ namespace BussinessAccessLayer.Abstract
         public Task<bool> AddAssignment(AssignmentViews assignment);
 
         public Task<IEnumerable<Assignment>> GetAssignmentDetails();
-        public Task<Assignment> GetAssignment(string SubjectId);
+        //public Task<Assignment> DownloadFile(string FilePath);
+        public Task<Assignment> GetAssignment(int AssignId);
         public Task<bool> UpdateAssignment(Assignment assignment);
         public Task<bool> DeleteAssignment(string SubjectId);
 

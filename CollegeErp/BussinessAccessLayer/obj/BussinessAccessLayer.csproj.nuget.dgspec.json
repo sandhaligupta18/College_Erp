@@ -59,6 +59,10 @@
             "Microsoft.AspNetCore.Session": {
               "target": "Package",
               "version": "[2.1.1, )"
+            },
+            "System.IO.FileSystem": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             }
           },
           "imports": [

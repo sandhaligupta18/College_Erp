@@ -183,34 +183,6 @@ namespace DataAccessLayer.Migrations
                     b.ToTable("Assignments");
                 });
 
-            modelBuilder.Entity("ModelAccessLayer.Assignments", b =>
-                {
-                    b.Property<int>("AssignId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AssignId"), 1L, 1);
-
-                    b.Property<string>("Branch")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime?>("CompletionDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Course")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("FilePath")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("SubjectId")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("AssignId");
-
-                    b.ToTable("AssignmentData");
-                });
-
             modelBuilder.Entity("ModelAccessLayer.FeeStructure", b =>
                 {
                     b.Property<string>("EnrollNo")
@@ -459,6 +431,34 @@ namespace DataAccessLayer.Migrations
                     b.HasKey("StudendId");
 
                     b.ToTable("StudentData");
+                });
+
+            modelBuilder.Entity("ModelAccessLayer.SubjectAssignments", b =>
+                {
+                    b.Property<int>("AssignmentsId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AssignmentsId"), 1L, 1);
+
+                    b.Property<string>("Branch")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("CompletionDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Course")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FilePath")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("SubjectId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("AssignmentsId");
+
+                    b.ToTable("subjectAssignments");
                 });
 
             modelBuilder.Entity("ModelAccessLayer.TeacherDetails", b =>

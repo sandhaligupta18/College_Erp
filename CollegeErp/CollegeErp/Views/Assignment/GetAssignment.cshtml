@@ -1,0 +1,64 @@
+﻿@model ModelAccessLayer.Assignment
+
+
+
+<div>
+
+
+    <section id="main-content">
+        <section class="wrapper">
+            <div class="table-agile-info d-flex justify-content-center">
+                <h2 class="text-black p-3">Student Details</h2>
+                <dl class="dl-horizontal">
+                    <dt>
+                        @Html.DisplayNameFor(model => model.FilePath)
+                    </dt>
+                    <dd>
+                        @Html.DisplayNameFor(model => model.FilePath)
+                       @*  <td>
+                            <a asp-action="DownloadFile" asp-route-filePath="@item.FilePath">Download</a>
+                        </td> *@
+
+                     @*    <img src="~/images/@Model.ProfilePicture"
+                             class="rounded-circle"
+                             height="40" width="40" /> *@
+                    </dd>
+                    <dt>
+                        @Html.DisplayNameFor(model => model.SubjectId)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.SubjectId)
+                    </dd>
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Course)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.Course)
+                    </dd>
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Branch)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.Branch)
+                    </dd>
+                    <dt>
+                        @Html.DisplayNameFor(model => model.CompletionDate)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.CompletionDate)
+                    </dd>
+                   
+                </dl>
+            </div>
+        </section>
+
+    </section>
+
+
+
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="Index">Back to List</a>
+</div>
+

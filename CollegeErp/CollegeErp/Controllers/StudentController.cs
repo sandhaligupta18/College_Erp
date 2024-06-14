@@ -34,9 +34,7 @@ namespace CollegeErp.Controllers
                 {
                     var result = await _studentOperations.AddStudent(studentDetails);
                     if (result)
-                    {
-                       
-
+                    {                      
                         return RedirectToAction("AddStudent");
                     }
                     else

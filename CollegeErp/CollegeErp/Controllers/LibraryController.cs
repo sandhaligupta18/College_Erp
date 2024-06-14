@@ -56,13 +56,13 @@ namespace CollegeErp.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetLibUserDetail(string Id)
+        public async Task<IActionResult> GetLibUserDetail(int Id)
         {
             var data = await _libraryServices.GetLibUserDetail(Id);
             return View(data);
         }
         [HttpGet]
-        public async Task<IActionResult> UpdateLibDetails(string Id)
+        public async Task<IActionResult> UpdateLibDetails(int Id)
         {
             var values = await _libraryServices.GetLibUserDetail(Id);
             return View(values);
@@ -74,7 +74,7 @@ namespace CollegeErp.Controllers
             return RedirectToAction("GetAllLibraryDetails");
         }
         [HttpGet]
-        public async Task<IActionResult> DeleteLibDetails(string id)
+        public async Task<IActionResult> DeleteLibDetails(int id)
         {
             if (ModelState.IsValid)
             {

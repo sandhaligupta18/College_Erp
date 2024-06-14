@@ -15,3 +15,4 @@ D:\DotNetProjects\CollegeErp\BussinessAccessLayer\obj\Debug\net8.0\BussinessAcce
 D:\DotNetProjects\CollegeErp\BussinessAccessLayer\obj\Debug\net8.0\refint\BussinessAccessLayer.dll
 D:\DotNetProjects\CollegeErp\BussinessAccessLayer\obj\Debug\net8.0\BussinessAccessLayer.pdb
 D:\DotNetProjects\CollegeErp\BussinessAccessLayer\obj\Debug\net8.0\ref\BussinessAccessLayer.dll
+D:\DotNetProjects\CollegeErp\BussinessAccessLayer\obj\Debug\net8.0\BussinessAccessLayer.sourcelink.json

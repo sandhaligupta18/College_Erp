@@ -26,6 +26,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\DotNetProjects\CollegeErp\CollegeErp
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Account/CheckUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDaGVja1VzZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/DotNetProjects/CollegeErp/CollegeErp/Views/Account/CreateRole.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDcmVhdGVSb2xlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -54,8 +58,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaWdubWVudFxBZGRBc3NpZ25tZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Assignment/DeleteAssignment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaWdubWVudFxEZWxldGVBc3NpZ25tZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/DotNetProjects/CollegeErp/CollegeErp/Views/Assignment/GetAllAssignment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaWdubWVudFxHZXRBbGxBc3NpZ25tZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/Assignment/GetAssignment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaWdubWVudFxHZXRBc3NpZ25tZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/DotNetProjects/CollegeErp/CollegeErp/Views/Assignment/UpdateAssignment.cshtml]
@@ -168,6 +180,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/DotNetProjects/CollegeErp/CollegeErp/Views/Student/UpdateStudent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxVcGRhdGVTdHVkZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/SubAssignments/AddAssignments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViQXNzaWdubWVudHNcQWRkQXNzaWdubWVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/SubAssignments/DeleteAssignment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViQXNzaWdubWVudHNcRGVsZXRlQXNzaWdubWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/SubAssignments/GetAllAssign.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViQXNzaWdubWVudHNcR2V0QWxsQXNzaWduLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/SubAssignments/GetAssignById.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViQXNzaWdubWVudHNcR2V0QXNzaWduQnlJZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNetProjects/CollegeErp/CollegeErp/Views/SubAssignments/UpdateAssignment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViQXNzaWdubWVudHNcVXBkYXRlQXNzaWdubWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/DotNetProjects/CollegeErp/CollegeErp/Views/Teacher/AddTeacher.cshtml]

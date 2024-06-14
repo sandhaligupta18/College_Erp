@@ -1,0 +1,68 @@
+﻿@model ModelAccessLayer.SubjectAssignments
+
+<section id="main-content">
+    <section class="wrapper">
+        <div class="typo-agile">
+
+            <div class="row">
+                <div class="row-md-4">
+                    <h2 class="text-black">Update Teacher Details</h2>
+                    <form asp-action="UpdateAssignment" class="mt-4">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-group">
+                            <label asp-for="AssignmentsId" class="control-label"></label>
+                            <input asp-for="AssignmentsId" class="form-control" />
+                            <span asp-validation-for="AssignmentsId" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="SubjectId" class="control-label"></label>
+                            <input asp-for="SubjectId" class="form-control" />
+                            <span asp-validation-for="SubjectId" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Course" class="control-label"></label>
+                            <input asp-for="Course" class="form-control" />
+                            <span asp-validation-for="Course" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Branch" class="control-label"></label>
+                            <input asp-for="Branch" class="form-control" />
+                            <span asp-validation-for="Branch" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="CompletionDate" class="control-label"></label>
+                            <input asp-for="CompletionDate" class="form-control" />
+                            <span asp-validation-for="CompletionDate" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="FilePath" class="control-label"></label>
+                            <input asp-for="FilePath" class="form-control" class="custom-file-input" />
+                            @* <label class="custom-file-label" for="customFile">Choose file</label> *@
+                                <span asp-validation-for="FilePath" class="text-danger"></span>
+                        </div>
+                       
+                        <div class="form-group">
+                            <input type="submit" value="Save" class="btn btn-default  btn btn-dark w-100  rounded" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</section>
+
+
+<script type="text/javascript">
+    // Add the following code if you want the name of the file appear on select
+    $(".custom-file-input").on("change", function () {
+        var fileName = $(this).val().split("\\").pop();
+        $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+    });
+</script>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+

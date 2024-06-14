@@ -80,6 +80,9 @@ namespace BussinessAccessLayer.Implementation
             }
             return uniqueFileName;
         }
+
+ 
+
         public async Task<IEnumerable<Assignment>> GetAssignmentDetails()
         {
             try
@@ -93,9 +96,11 @@ namespace BussinessAccessLayer.Implementation
                 throw;
             }
         }
-        public async Task<Assignment> GetAssignment(string SubjectId)
+
+       
+        public async Task<Assignment> GetAssignment(int AssignId)
         {
-            return await _appDBContext.Assignments.FindAsync(SubjectId);
+            return await _appDBContext.Assignments.FindAsync(AssignId);
         }
         public async Task<bool> UpdateAssignment(Assignment assignment)
         {
@@ -117,7 +122,7 @@ namespace BussinessAccessLayer.Implementation
                 return false;
             }
         }
-        public async Task<bool> DeleteAssignment(string AssignId)
+        public async Task<bool> DeleteAssignment(string SubjectId)
         {
             try
             {
@@ -125,7 +130,7 @@ namespace BussinessAccessLayer.Implementation
                 {
                     return false;
                 }
-                var data = await _appDBContext.Assignments.FindAsync(AssignId);
+                var data = await _appDBContext.Assignments.FindAsync(SubjectId);
                 if (data == null)
                 {
                     return false;
@@ -139,6 +144,14 @@ namespace BussinessAccessLayer.Implementation
                 throw;
             }
         }
+
+        //public Task<Assignment> DownloadFile(string FilePath)
+        //{
+
+        //    byte[] fileBytes = System.IO.File.ReadAllBytes(filePath);
+        //    string fileName = "myfile.pdf";
+        //    return File(fileBytes, System.Net.Mime.MediaTypeNames.Application.Octet, fileName);
+        //}
     }
 }
 

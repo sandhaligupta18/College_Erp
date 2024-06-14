@@ -47,6 +47,10 @@ namespace CollegeErp.Controllers
                 throw;
             }
         }
+
+        
+
+
         public async Task<IActionResult> GetAllAssignment()
         {
             var data = await _assignmentServicescs.GetAssignmentDetails();
@@ -55,18 +59,18 @@ namespace CollegeErp.Controllers
 
         //[Authorize(Roles = "Teacher , Student")]
         [HttpGet]
-        public async Task<IActionResult> GetAssignment(string SubjectId)
+        public async Task<IActionResult> GetAssignment(int AssignId)
         {
-            var data = await _assignmentServicescs.GetAssignment(SubjectId);
+            var data = await _assignmentServicescs.GetAssignment(AssignId);
             return View(data);
         }
 
-        [HttpGet]
-        public async Task<IActionResult> UpdateAssignment(string SubjectId)
-        {
-            var values = await _assignmentServicescs.GetAssignment(SubjectId);
-            return View(values);
-        }
+        //[HttpGet]
+        //public async Task<IActionResult> UpdateAssignment(string SubjectId)
+        //{
+        //    var values = await _assignmentServicescs.GetAssignment(SubjectId);
+        //    return View(values);
+        //}
 
         //[Authorize(Roles = "Teacher")]
         [HttpPost]
@@ -78,11 +82,11 @@ namespace CollegeErp.Controllers
 
         //[Authorize(Roles = "Teacher")]
         [HttpGet]
-        public async Task<IActionResult> DeleteAssignment(string AssignId)
+        public async Task<IActionResult> DeleteAssignment(string SubjectId)
         {
             if (ModelState.IsValid)
             {
-                var result = await _assignmentServicescs.DeleteAssignment(AssignId);
+                var result = await _assignmentServicescs.DeleteAssignment(SubjectId);
                 return RedirectToAction("GetAllAssignment");
             }
             else

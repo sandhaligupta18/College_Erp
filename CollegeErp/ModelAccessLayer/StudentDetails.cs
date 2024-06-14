@@ -45,7 +45,5 @@ namespace ModelAccessLayer
         [Required(ErrorMessage = "Please choose profile image")]
         [Display(Name = "Profile Picture")]
         public string? ProfilePicture { get; set; }
-
-
     }
 }

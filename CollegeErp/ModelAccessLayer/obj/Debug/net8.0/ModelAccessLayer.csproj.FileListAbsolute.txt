@@ -10,3 +10,4 @@ D:\DotNetProjects\CollegeErp\ModelAccessLayer\obj\Debug\net8.0\ModelAccessLayer.
 D:\DotNetProjects\CollegeErp\ModelAccessLayer\obj\Debug\net8.0\refint\ModelAccessLayer.dll
 D:\DotNetProjects\CollegeErp\ModelAccessLayer\obj\Debug\net8.0\ModelAccessLayer.pdb
 D:\DotNetProjects\CollegeErp\ModelAccessLayer\obj\Debug\net8.0\ref\ModelAccessLayer.dll
+D:\DotNetProjects\CollegeErp\ModelAccessLayer\obj\Debug\net8.0\ModelAccessLayer.sourcelink.json

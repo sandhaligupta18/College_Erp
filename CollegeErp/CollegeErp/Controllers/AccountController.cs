@@ -1,4 +1,5 @@
 ﻿using BussinessAccessLayer.Abstract;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -39,7 +40,6 @@ namespace CollegeErp.Controllers
                 throw;
             }
         }
-
         [HttpGet]
         public async Task<IActionResult> GetAllRegisterUsers()
         {
@@ -73,13 +73,23 @@ namespace CollegeErp.Controllers
             {
                 throw;
             }
-        }
+        }     
         [HttpGet]
         public IActionResult Loginusers()
         {
+			ViewBag.Data = HttpContext.Session.GetString("Users").ToString();
+			return View();
+        }
+        [HttpGet]
+        public IActionResult CheckUsers()
+        {
             return View();
         }
-
+        [HttpPost]
+        public async Task<IActionResult> CheckUsers(CheckUser checkUser) {
+			HttpContext.Session.SetString("Users", checkUser.LoggedInAs);         
+			return RedirectToAction("Loginusers");
+		}
         [HttpPost]
         public async Task<IActionResult> Loginusers(LoginUser user)
         {
@@ -88,10 +98,12 @@ namespace CollegeErp.Controllers
                 if (ModelState.IsValid)
                 {
                     var result = await _accountServices.Loginusers(user);
-                    
+                    if(HttpContext.Session.GetString("Users").ToString() != "Admin") { 
 					  HttpContext.Session.SetString( "Enroll", user.UniqueValue);
-                    //HttpContext.Session.SetString("TeacherID", user.TeacherId);
-					if (result)
+				}
+
+				//HttpContext.Session.SetString("TeacherID", user.TeacherId);
+				if (result)
                     {
                             return RedirectToAction("Index", "Home");                       
                     }
@@ -104,6 +116,19 @@ namespace CollegeErp.Controllers
             }
         }
 
+        [HttpGet]
+        public async Task<IActionResult> LogoutUser()
+        {
+            try
+            {
+                var result = await _accountServices.LogoutUser();
+                return RedirectToAction("Loginusers");
+            }
+            catch
+            {
+                throw;
+            }
+        }
         [HttpGet]
         public IActionResult SetNewPassword()
         {
@@ -135,7 +160,6 @@ namespace CollegeErp.Controllers
         {
             return View();
         }
-
         [HttpPost]
         public async Task<IActionResult>  ResetPassword( SetNewPassword setNewPassword)
         {
@@ -155,7 +179,6 @@ namespace CollegeErp.Controllers
             {
                 throw;
             }
-
         }
     }
 }

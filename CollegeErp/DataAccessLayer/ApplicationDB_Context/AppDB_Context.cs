@@ -24,7 +24,7 @@ namespace DataAccessLayer.ApplicationDB_Context
         public DbSet<StudentDetails> StudentData { get; set; }
         public DbSet<TeacherDetails> TeacherData { get; set; }
         public DbSet<TimeTable> TimeTables { get; set; }
-     
+     public DbSet<SubjectAssignments> subjectAssignments { get; set; }
         public DbSet<Assignment> Assignments { get; set; }
 
 

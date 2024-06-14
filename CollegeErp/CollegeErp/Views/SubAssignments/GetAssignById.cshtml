@@ -1,0 +1,55 @@
+﻿@model ModelAccessLayer.SubjectAssignmentsView
+
+<div>
+
+    <section id="main-content">
+        <section class="wrapper">
+            <h2 class="text-black p-3">Teacher Details</h2>
+            <div class="table-agile-info d-flex justify-content-center">
+                <dl class="dl-horizontal">
+                    <dt>
+                        @Html.DisplayNameFor(model => model.SubjectId)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.SubjectId)
+                    </dd>
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Course)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.Course)
+                    </dd>
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Branch)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.Branch)
+                    </dd>
+                    <dt>
+                        @Html.DisplayNameFor(model => model.CompletionDate)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.CompletionDate)
+                    </dd>
+                    <dt>
+                        @Html.DisplayNameFor(model => model.File)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.File)
+                    </dd>
+                   
+                </dl>
+            </div>
+        </section>
+
+    </section>
+
+
+
+
+
+</div>
+@* <div>
+    @Html.ActionLink("Edit", "UpdateTeacher", new { id = Model.TeacherId }) |
+    <a asp-action="GetAllTeachers">Back to List</a>
+</div> *@

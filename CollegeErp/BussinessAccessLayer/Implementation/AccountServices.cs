@@ -166,18 +166,31 @@ namespace BussinessAccessLayer.Implementation
 
         }
 
+        public async Task<bool> LogoutUser()
+        {
+            try
+            {
+          await _signInManager.SignOutAsync();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
 
-        //public List<StudentDetails> GetStudentById(string EnrollNo)
-        //{
-        //    using (_appDBContext)
-        //    {
-        //        return _appDBContext.StudentData.FromSqlRaw<StudentDetails>("EXEC StudentById @EnrollNo",
 
-        //            new SqlParameter("@EnrollNo", EnrollNo)).ToList();
-        //    }
-        //}
+		//public List<StudentDetails> GetStudentById(string EnrollNo)
+		//{
+		//    using (_appDBContext)
+		//    {
+		//        return _appDBContext.StudentData.FromSqlRaw<StudentDetails>("EXEC StudentById @EnrollNo",
+
+		//            new SqlParameter("@EnrollNo", EnrollNo)).ToList();
+		//    }
+		//}
 
 
 
-    }
+	}
 }
